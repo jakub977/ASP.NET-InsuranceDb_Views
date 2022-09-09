@@ -1,0 +1,205 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+}
+
+<div class="bg-light p-3 rounded table-responsive-md text-nowrap">
+	<div class="text-center"><a class="btn mb-3 btn-lg btn-primary" asp-area="" asp-controller="Home" asp-action="Novy_Pojistenec">Přidat pojištěnce</a></div>
+	<div><h3>Seznam pojištěnců</h3></div>
+
+	<table id="table-main" class="table table-bordered border-dark table-striped table-responsive">
+		<thead class="table-secondary table-bordered border-dark">
+			<tr>
+				<th>Jméno</th>
+				<th>Bydliště</th>
+				<th>Email</th>
+				<th>Možnosti</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><a asp-area="" asp-controller="Home" asp-action="Detail_Pojistence">Jakub Šanda</a></td>
+				<td>Mičovice 7, Prachatice 383 01</td>
+				<td>jakub.sanda@yahoo.com</td>
+				<td>
+					<a id="moznosti" class="btn mx-2 btn-sm btn-log btn-outline-warning" asp-area="" asp-controller="Home" asp-action="Upraveni_Pojistence">Upravit</a>
+					<button type="button" id="moznosti" class="btn btn-sm mx-3 my-2 btn-log btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModalpoj">Odstranit</button>
+				</td>
+				<!-- Modal -->
+				<div class="modal fade" id="myModalpoj">
+					<div class="modal-dialog modal-dialog-centered">
+						<div class="modal-content">
+
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h4 class="modal-title">Odstranění pojištěnce</h4>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+							</div>
+
+							<!-- Modal body -->
+							<div class="modal-body text-center">
+								Chystáte se odstranit aktuálního pojištěnce. <br />
+								Jste si jisti, že chcete pokračovat?
+							</div>
+
+							<!-- Modal footer -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ne</button>
+								<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Ano</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</tr>
+
+			<tr>
+				<td><a asp-area="" asp-controller="Home" asp-action="Detail_Pojistence">Jakub Šanda</a></td>
+				<td>Mičovice 7, Prachatice 383 01</td>
+				<td>jakub.sanda@yahoo.com</td>
+				<td>
+					<a id="moznosti" class="btn mx-2 btn-sm btn-log btn-outline-warning" asp-area="" asp-controller="Home" asp-action="Upraveni_Pojistence">Upravit</a>
+					<button type="button" id="moznosti" class="btn btn-sm mx-3 my-2 btn-log btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModalpoj">Odstranit</button>
+				</td>
+				<!-- Modal -->
+				<div class="modal fade" id="myModalpoj">
+					<div class="modal-dialog modal-dialog-centered">
+						<div class="modal-content">
+
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h4 class="modal-title">Odstranění pojištěnce</h4>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+							</div>
+
+							<!-- Modal body -->
+							<div class="modal-body text-center">
+								Chystáte se odstranit aktuálního pojištěnce. <br />
+								Jste si jisti, že chcete pokračovat?
+							</div>
+
+							<!-- Modal footer -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ne</button>
+								<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Ano</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</tr>
+
+			<tr>
+				<td><a asp-area="" asp-controller="Home" asp-action="Detail_Pojistence">Jakub Šanda</a></td>
+				<td>Mičovice 7, Prachatice 383 01</td>
+				<td>jakub.sanda@yahoo.com</td>
+				<td>
+					<a id="moznosti" class="btn mx-2 btn-sm btn-log btn-outline-warning" asp-area="" asp-controller="Home" asp-action="Upraveni_Pojistence">Upravit</a>
+					<button type="button" id="moznosti" class="btn btn-sm mx-3 my-2 btn-log btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModalpoj">Odstranit</button>
+				</td>
+				<!-- Modal -->
+				<div class="modal fade" id="myModalpoj">
+					<div class="modal-dialog modal-dialog-centered">
+						<div class="modal-content">
+
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h4 class="modal-title">Odstranění pojištěnce</h4>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+							</div>
+
+							<!-- Modal body -->
+							<div class="modal-body text-center">
+								Chystáte se odstranit aktuálního pojištěnce. <br />
+								Jste si jisti, že chcete pokračovat?
+							</div>
+
+							<!-- Modal footer -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ne</button>
+								<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Ano</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</tr>
+
+			<tr>
+				<td><a asp-area="" asp-controller="Home" asp-action="Detail_Pojistence">Jakub Šanda</a></td>
+				<td>Mičovice 7, Prachatice 383 01</td>
+				<td>jakub.sanda@yahoo.com</td>
+				<td>
+					<a id="moznosti" class="btn mx-2 btn-sm btn-log btn-outline-warning" asp-area="" asp-controller="Home" asp-action="Upraveni_Pojistence">Upravit</a>
+					<button type="button" id="moznosti" class="btn btn-sm mx-3 my-2 btn-log btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModalpoj">Odstranit</button>
+				</td>
+				<!-- Modal -->
+				<div class="modal fade" id="myModalpoj">
+					<div class="modal-dialog modal-dialog-centered">
+						<div class="modal-content">
+
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h4 class="modal-title">Odstranění pojištěnce</h4>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+							</div>
+
+							<!-- Modal body -->
+							<div class="modal-body text-center">
+								Chystáte se odstranit aktuálního pojištěnce. <br />
+								Jste si jisti, že chcete pokračovat?
+							</div>
+
+							<!-- Modal footer -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ne</button>
+								<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Ano</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</tr>
+
+			<tr>
+				<td><a asp-area="" asp-controller="Home" asp-action="Detail_Pojistence">Jakub Šanda</a></td>
+				<td>Mičovice 7, Prachatice 383 01</td>
+				<td>jakub.sanda@yahoo.com</td>
+				<td>
+					<a id="moznosti" class="btn mx-2 btn-sm btn-log btn-outline-warning" asp-area="" asp-controller="Home" asp-action="Upraveni_Pojistence">Upravit</a>
+					<button type="button" id="moznosti" class="btn btn-sm mx-3 my-2 btn-log btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModalpoj">Odstranit</button>
+				</td>
+				<!-- Modal -->
+				<div class="modal fade" id="myModalpoj">
+					<div class="modal-dialog modal-dialog-centered">
+						<div class="modal-content">
+
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h4 class="modal-title">Odstranění pojištěnce</h4>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+							</div>
+
+							<!-- Modal body -->
+							<div class="modal-body text-center">
+								Chystáte se odstranit aktuálního pojištěnce. <br />
+								Jste si jisti, že chcete pokračovat?
+							</div>
+
+							<!-- Modal footer -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ne</button>
+								<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Ano</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</tr>
+
+		</tbody>
+	</table>
+
+	<ul class="pagination justify-content-center mt-5">
+		<li class="page-item"><a class="page-link" href="#">Předchozí</a></li>
+		<li class="page-item active"><a class="page-link" href="#">1</a></li>
+		<li class="page-item"><a class="page-link" href="#">2</a></li>
+		<li class="page-item"><a class="page-link" href="#">3</a></li>
+		<li class="page-item"><a class="page-link" href="#">Další</a></li>
+	</ul>
+
+</div>

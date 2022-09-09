@@ -1,0 +1,44 @@
+﻿@{
+	ViewData["Title"] = "Insurance edit";
+}
+
+<div class="bg-light p-3 rounded table-responsive-md text-nowrap">
+	  <div><h3>Přidat pojištění pro klienta</h3></div><br/>
+
+	  <form>
+		  <select class="form-select" aria-label="Select insurance type">
+			<option selected>Vyberte typ pojištění</option>
+			<option value="1">Pojištění majetku</option>
+			<option value="2">Pojištění úrazu</option>
+			<option value="3">Životní pojištění</option>
+			<option value="3">Povinné ručení</option>
+		  </select>
+
+		<div class="row row-cols-2">
+		  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<label for="Limit"><h6>Limit plnění v Kč</h6></label>
+			<input type="text" class="form-control" id="Limit" placeholder="1.000.000" name="Limit">
+		  </div>
+		  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<label for="insuredThing"><h6>Předmět pojištění</h6></label>
+			<input type="text" class="form-control" id="insuredThing" placeholder="Byt" name="Thing">
+		  </div>
+
+		  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<label for="startDate"><h6>Platnost od</h6></label>
+			<input type="text" class="form-control" id="startDate" placeholder="01.10.2022" name="startDate">
+		  </div>
+		  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<label for="EndDate"><h6>Platnost do</h6></label>
+			<input type="text" class="form-control" id="EndDate" placeholder="30.09.2023" name="EndDate">
+		  </div>
+
+		</div>
+	  </form>
+
+	  <br/>
+	  <div class="text-center">
+		<a href="#" class="btn mx-3 btn-success">Uložit</a>
+	  </div>
+
+	</div>

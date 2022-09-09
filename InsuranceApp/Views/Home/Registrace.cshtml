@@ -1,0 +1,89 @@
+﻿@{
+	ViewData["Title"] = "Registration";
+}
+
+<section class="vh-50 gradient-custom">
+	<div class="container h-50">
+		<div class="row justify-content-center align-items-center h-100">
+			<div class="col-12 col-lg-9 col-xl-7">
+				<div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+					<div class="card-body p-4 p-md-5">
+						<h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Registrační formulář</h3>
+						<form>
+
+							<div class="row">
+								<div class="col-md-6 mb-4">
+
+									<div class="form-outline">
+										<input type="text" id="firstName" class="form-control form-control-lg" />
+										<label class="form-label" for="firstName">Jméno</label>
+									</div>
+
+								</div>
+								<div class="col-md-6 mb-4">
+
+									<div class="form-outline">
+										<input type="text" id="lastName" class="form-control form-control-lg" />
+										<label class="form-label" for="lastName">Příjmení</label>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-6 mb-4 d-flex align-items-center">
+
+									<div class="form-outline datepicker w-100">
+										<input type="text" class="form-control form-control-lg" id="birthdayDate" />
+										<label for="birthdayDate" class="form-label">Datum narození</label>
+									</div>
+
+								</div>
+								<div class="col-md-6 mb-4">
+
+									<h6 class="mb-2 pb-1">Pohlaví: </h6>
+
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
+											   value="option1" checked />
+										<label class="form-check-label" for="femaleGender">Žena</label>
+									</div>
+
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
+											   value="option2" />
+										<label class="form-check-label" for="maleGender">Muž</label>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-6 mb-4 pb-2">
+
+									<div class="form-outline">
+										<input type="email" id="emailAddress" class="form-control form-control-lg" />
+										<label class="form-label" for="emailAddress">Email</label>
+									</div>
+
+								</div>
+								<div class="col-md-6 mb-4 pb-2">
+
+									<div class="form-outline">
+										<input type="tel" id="phoneNumber" class="form-control form-control-lg" />
+										<label class="form-label" for="phoneNumber">Telefon</label>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="text-center mt-2 pt-2">
+								<input class="btn btn-primary btn-lg" type="submit" value="Odeslat" />
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

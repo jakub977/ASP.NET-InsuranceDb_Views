@@ -1,0 +1,47 @@
+﻿@{
+	ViewData["Title"] = "New client";
+}
+
+<div class="bg-light p-3 rounded table-responsive-md text-nowrap">
+	<div><h3>Nový pojištěnec</h3></div>
+
+	<form>
+		<div class="row row-cols-2">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<label for="firstName"><h6>Jméno</h6></label>
+				<input type="text" class="form-control" id="firstName" placeholder="Jan" name="firstName">
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<label for="lastName"><h6>Příjmení</h6></label>
+				<input type="text" class="form-control" id="lastName" placeholder="Novák" name="lastName">
+			</div>
+
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<label for="Email"><h6>Email</h6></label>
+				<input type="text" class="form-control" id="Email" placeholder="jan.novak@gmail.com" name="email">
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<label for="Phone"><h6>Telefon</h6></label>
+				<input type="text" class="form-control" id="Phone" placeholder="+420 987 654 321" name="tel">
+			</div>
+
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<label for="street"><h6>Ulice a č. popisné</h6></label>
+				<input type="text" class="form-control" id="street" placeholder="Ve Svahu 33" name="street">
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<label for="City"><h6>Město</h6></label>
+				<input type="text" class="form-control" id="City" placeholder="Praha 1" name="city">
+			</div>
+
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<label for="zipCode"><h6>PSČ</h6></label>
+				<input type="text" class="form-control" id="zipCode" placeholder="100 00" name="zipCode">
+			</div>
+		</div>
+	</form>
+	<div class="text-center">
+		<a href="#" class="btn mx-3 btn-success">Uložit</a>
+	</div>
+
+</div>

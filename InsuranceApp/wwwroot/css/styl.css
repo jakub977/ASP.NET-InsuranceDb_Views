@@ -1,0 +1,72 @@
+/* Show it is fixed to the top */
+main {
+  min-height: 35rem;
+}
+
+img {
+  float: left;
+  margin-right: 15px;
+  border-style: groove;
+}
+
+#tlacitko-pridat {
+  justify-content: end;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#moznosti {
+  width: 80px;
+}
+
+table {
+  margin-top: 25px;
+}
+
+form {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.form-signin {
+  max-width: 500px;
+}
+
+#prihlaseni * {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.row * {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.form-select {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+label {
+  margin-left: 3px;
+}
+
+#accordion {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#table-main {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  width: 100%;
+  clip-path: polygon(0 20px, 100% 0, 100% 100%, 0 100%);
+ }
